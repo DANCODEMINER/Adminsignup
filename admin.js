@@ -46,7 +46,7 @@ function verifyAdminOtpAndSignup() {
     return;
   }
 
-  fetch("https://danoski-backend.onrender.com/admin/signup", {
+  fetch("https://danoski-backend.onrender.com/admin/verify-otp", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
